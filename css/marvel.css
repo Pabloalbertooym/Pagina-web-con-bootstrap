@@ -1,0 +1,160 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+
+  body {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.8)),url("/imagenes/background-wakanda.jpg"); 
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+
+.container a{
+  margin-top: 4px;
+  color: #fff;
+  margin: 6px;
+}
+
+.container header{
+  background: transparent !important;
+  background-color: #fff;
+}
+
+.logo {
+  width: 150px;
+  margin-top: 18px;
+}
+
+#navbarScroll a:active {
+  color: #fff !important;
+}
+
+#navbarScroll a:hover {
+  color: #F0131E;
+}
+
+#navbarScroll button {
+  border: 1px solid #fff !important;
+  background: transparent !important;
+  color: #fff;
+  }
+
+#navbarScroll button:hover {
+  background-color: #F0131E;
+  color: #F0131E;
+  border: 1px solid #F0131E !important;
+  background: transparent !important;
+}
+
+
+.header {
+  height: 10%;
+}
+
+.header-btn {
+  text-decoration: none !important;
+  margin-left: 5px;
+  border-radius: 30px;
+  padding: 7px 20px; 
+  float: right;
+  color: #fff !important;
+  background: #F0131E;
+  font-weight: 600;
+}
+
+.left-box {
+  color: #fff;
+  margin: 15px 0;
+  padding: 20px;
+}
+
+.actores img{
+  height: 40px;
+  width: 40px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.navbar-toggler {
+  background: rgb(240, 19, 30)
+}
+
+.left-box a{
+  text-decoration: none !important;
+  border-radius: 20px;
+  padding: 7px 20px; 
+  margin-top: 15px;
+  color: #fff !important;
+  background: rgb(240, 19, 30);
+  font-weight: 600;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.download-btn {
+  border: 1px solid #fff !important;
+  background: transparent !important;
+}
+
+.fa{
+  margin: 0 5px;
+}
+
+.movie-img {
+  height: 100%;
+  width: 50%;
+  box-shadow: -4px 4px 5px 0 rgb(26, 24, 24);
+  margin-top: 10px;;
+}
+
+.movies h3{
+  color: #fff;
+}
+
+.movies img{
+  width: 90%;
+  height: 100%;
+  box-shadow: -4px 4px 5px 0 rgb(26, 24, 24);
+  margin-top: 10px;
+  margin-left: 14px;
+  cursor: pointer;
+  transition: 1s;
+  margin: 10px;
+  
+}
+
+.movies img:hover{
+  transform: translateY(-10px);
+}
+
+.card {
+  background: transparent !important;
+  margin:0 auto;
+  height: 100%;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card img{
+  height: 100%;
+  width: 40px;
+  position: center;
+}
+
+@media (max-width: 768px) and (min-width: 300px) {
+  * {
+    margin: 0;
+    padding: 0;
+  }
+
+  .col-md-4 {
+    margin-top: 20px;
+  }
+
+  .movies img{
+    margin-top: 5px;
+  }
+}
